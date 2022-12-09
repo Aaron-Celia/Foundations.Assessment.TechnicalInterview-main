@@ -1,0 +1,23 @@
+{
+  "name": "foundations.assessment.technicalcommunication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "mocha script_test.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullstackAcademy/Foundations.Assessment.TechnicalCommunication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FullstackAcademy/Foundations.Assessment.TechnicalCommunication/issues"
+  },
+  "homepage": "https://github.com/FullstackAcademy/Foundations.Assessment.TechnicalCommunication#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
