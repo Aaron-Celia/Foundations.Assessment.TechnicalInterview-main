@@ -180,7 +180,9 @@ describe("reverse", function () {
       const test = generateRandomNumberArray();
       const expected = Array.from(test);
       expected.reverse();
-      expect(code.reverse(test)).to.eql(expected);
+      it(`returns ${expected} when given ${test}`, function () {
+        expect(code.reverse(test)).to.eql(expected);
+      });
     }
   });
 });
@@ -224,7 +226,7 @@ describe("createMultiplicationTable", function () {
       expect(result).to.be.an("array");
     });
   });
-  
+
   describe("returns the correct output", function () {
     it('returns "error" if either of the given arguments is not a number', function () {
       expect(code.createMultiplicationTable("3", 5)).to.equal("error");

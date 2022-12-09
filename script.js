@@ -1,5 +1,4 @@
 /* Write your code here! */
-/* Write your code here! */
 
 /**
  * The code below exports your functions so they can be tested.
